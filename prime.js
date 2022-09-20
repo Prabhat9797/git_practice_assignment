@@ -1,9 +1,20 @@
 function prime(num){
-    if(num%i){
+let counter = 0;
+for(let i-0;i<=num;i++){
+    if(num%i === 0){
+        counter++;
+}
+}
+     if(counter == 2){
         return true;
     }
 }
 return false;
 }
+let answer = prime(13)
+if(answer == true){
 
-prime(13);
+console.log("Prime");
+}else{
+console.log("Not prime");
+
