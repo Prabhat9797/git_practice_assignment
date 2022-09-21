@@ -13,8 +13,6 @@ function prime(number){
     return false;
 }
 
-return false;
-}
 let answer = prime(13)
 if(answer == true){
 
